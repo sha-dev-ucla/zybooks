@@ -11,9 +11,9 @@ then the output is:
 Array contents: 34 67 54 33
 */
 
-import java.util.*;
+import java.util.Scanner;
 
-public class App2 {
+public class ApplicantLog {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
       int numElems; 
@@ -22,16 +22,17 @@ public class App2 {
       numElems = scnr.nextInt();
       int[] applicantNumbers = new int[numElems];
       
-		for (i = 0; i < applicantNumbers.length; ++i) {
+	for (i = 0; i < applicantNumbers.length; ++i) {
 			applicantNumbers[i] = scnr.nextInt();
 		}
 		System.out.print("Array contents: ");
-
-              for(int j = 0;j<numElems;j++)
+      // Your code here
+    for(int j = 0;j<numElems;j++)
         {
             
             System.out.print(applicantNumbers[j] + " ");
         }
-        System.out.println();
+                System.out.println();
+      
    }
 }
