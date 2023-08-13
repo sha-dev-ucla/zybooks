@@ -22,7 +22,7 @@ public class ApplicantLog {
       numElems = scnr.nextInt();
       int[] applicantNumbers = new int[numElems];
       
-	for (i = 0; i < applicantNumbers.length; ++i) {
+    for (i = 0; i < applicantNumbers.length; ++i) {
 			applicantNumbers[i] = scnr.nextInt();
 		}
 		System.out.print("Array contents: ");
