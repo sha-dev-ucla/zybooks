@@ -1,3 +1,17 @@
+/*
+Integer numElems is read from input and integer array userCounts is declared with size numElems.
+Then, numElems integers are read from input and stored into userCounts. Assign integer sumVals with
+ the sum of the first element and the last element of the array.
+
+Ex: If the input is:
+5
+11 84 19 12 64
+
+then the output is:
+75
+ */
+
+
 import java.util.Scanner;
 
 public class App {
@@ -17,6 +31,7 @@ public class App {
 		int sumVals = 0;
 
       /* Your code goes here */
+      sumVals = userCounts[0] + userCounts[numElems - 1];
 
       System.out.println(sumVals);
    }
