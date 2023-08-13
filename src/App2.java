@@ -13,7 +13,7 @@ Array contents: 34 67 54 33
 
 import java.util.Scanner;
 
-public class ApplicantLog {
+public class App2 {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
       int numElems; 
